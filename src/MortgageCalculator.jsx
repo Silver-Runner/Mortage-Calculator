@@ -18,7 +18,7 @@ const MortgageCalculator = () => {
   return (
     <>
       <h1 className="text-2xl text-center">Mortgage Calculator</h1>
-      <div className="w-100 h-90 flex flex-col items-start  border-3 border-gray-400 rounded p-6">
+      <div className="w-100 h-90 flex flex-col items-start  border-3 border-gray-400 rounded p-5">
         {/* P(r(1+r)^n/((1+r)^n)-1))*/}
         <form
           onSubmit={handleSubmit}
